@@ -3,10 +3,11 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class main {
+    //Reading Data
     public static void main(String[] args) {
         Scanner myinput = null;
         try{
-            myinput = new Scanner(new File("text2.txt"));
+            myinput = new Scanner(new File("text2.txt")); //This is what read the input file
         }catch (FileNotFoundException e ){
             e.printStackTrace();
         }
